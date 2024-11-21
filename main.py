@@ -20,8 +20,8 @@ print("3. Общее количество строк в таблице items_ord
 
 # Задача 4: Найти минимальную цену палатки
 tent_orders = items_ordered[items_ordered['item'].str.contains('Tent', case=False, na=False)]
-lowest_tent_price = tent_orders['price'].min()
-print("4. Минимальная цена палатки:", lowest_tent_price)
+tent_min_price = tent_orders['price'].min()
+print("4. Минимальная цена палатки:", tent_min_price)
 
 # Задача 5: Подсчитать количество людей в каждом уникальном штате
 # state_counts_dict = {}
