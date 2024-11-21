@@ -14,7 +14,7 @@ december_ordered = items_ordered[items_ordered['order_date'].dt.month == 12]
 average_december_price = december_ordered['price'].mean()
 print("2. Средняя цена товаров, заказанных в декабре:", average_december_price)
 
-# Задача 3: Общее количество строк в таблице items_ordered
+# Задача 3: Общее количество строк в таблице
 rows = len(items_ordered)
 print("3. Общее количество строк в таблице items_ordered:", rows)
 
